@@ -44,11 +44,14 @@ public class ValidacoesListaTests
         var numeroParaProcurar = 10;
 
         // Act
+        bool resultado = _validacoes.ListaContemDeterminadoNumero(lista, numeroParaProcurar);
 
         // Assert
+        Assert.False(resultado);
     }
 
     //TODO: Corrigir a anotação [Fact]
+    [Fact]
     public void DeveMultiplicarOsElementosDaListaPor2()
     {
         //TODO: Implementar método de teste
@@ -56,10 +59,12 @@ public class ValidacoesListaTests
         // Arrange
         var lista = new List<int> { 5, 7, 8, 9 };
         var resultadoEsperado = new List<int> { 10, 14, 16, 18 };
-        
+
         // Act
+        List<int> resultado = _validacoes.MultiplicarNumerosLista(lista, 2);
 
         // Assert
+        Assert.Equal(resultadoEsperado, resultado);
     }
 
     [Fact]
@@ -71,6 +76,7 @@ public class ValidacoesListaTests
         var lista = new List<int> { 5, -1, -8, 9 };
 
         // Act
+        int resultado = _validacoes.RetornarMaiorNumeroLista(lista);
 
         // Assert
         //TODO: Corrigir o Assert.Equal com base no retorno da chamada ao método
