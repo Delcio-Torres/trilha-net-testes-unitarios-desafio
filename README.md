@@ -84,3 +84,9 @@ O código de testes está pela metade, e você deverá dar continuidade implemen
 Todos os testes foram realizados com sucesso.
 
 ![](Imagens/resultado-teste.png)
+
+## Agradecimentos
+
+<a href="https://www.dio.me">Digital Inovation One - DIO</a><br>
+http://github.com/leonardo-buta - Leonardo Buta Expert Dio<br>
+http://github.com/elidianaandrade - Elidiana Andrade Expert Dio
