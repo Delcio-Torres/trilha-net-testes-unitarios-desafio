@@ -83,4 +83,4 @@ O código de testes está pela metade, e você deverá dar continuidade implemen
 ## Conclusão dos Testes
 Todos os testes foram realizados com sucesso.
 
-![](imagens/resultado-teste.png)
+![](Imagens/resultado-teste.png)
